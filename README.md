@@ -1,5 +1,5 @@
 # 🔢 Simple Calculator in C
-
+![Cover Image](cover.png)
 This is a simple command-line calculator written in C. It performs basic arithmetic operations: addition, subtraction, multiplication, and division.
 
 ## 🧠 How It Works
