@@ -1,21 +1,14 @@
-# 🔢 Simple Calculator in C
-![Cover](https://github.com/logicCrafter320/my-projects/blob/main/cover.png)
+# Calculator V3 – AI Mode 🧮
 
-This is a simple command-line calculator written in C. It performs basic arithmetic operations: addition, subtraction, multiplication, and division.
+A natural language calculator powered by OpenAI.  
+Ask math questions like:
+- What is 5 plus 6?
+- 2^10
+- What's the square root of 144?
 
-## 🧠 How It Works
-
-- Prompts user to enter two numbers
-- Asks for an operator (+, -, *, /)
-- Displays the result or an error message (like divide by 0)
-
-## 🛠️ To Compile and Run
+## Setup
 
 ```bash
-gcc calculator.c -o calculator
-./calculator
-```
-
-## ✍️ Created By
-
-Jothi Ganesh | Age 17 | Learning C to build cool tools and projects 🚀
+pip install -r requirements.txt
+export OPENAI_API_KEY="sk-..."  # Your OpenAI key
+python calc_ai.py
